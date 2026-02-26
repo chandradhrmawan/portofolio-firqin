@@ -51,22 +51,22 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.instagram.com/firqin.rf/"
                 aria-label="Instagram"
                 className="w-10 h-10 border border-neutral/30 flex items-center justify-center hover:border-accent hover:text-accent transition-all duration-300"
               >
                 <Instagram size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/ratu-firqin-fu-adiyah-60a57a298/"
                 aria-label="LinkedIn"
                 className="w-10 h-10 border border-neutral/30 flex items-center justify-center hover:border-accent hover:text-accent transition-all duration-300"
               >
                 <Linkedin size={18} />
               </a>
               <a
-                href="#"
-                aria-label="Behance / Dribbble"
+                href="https://www.behance.net/fuadiyahfi117a"
+                aria-label="Behance"
                 className="w-10 h-10 border border-neutral/30 flex items-center justify-center hover:border-accent hover:text-accent transition-all duration-300"
               >
                 <Dribbble size={18} />
