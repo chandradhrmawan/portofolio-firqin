@@ -1,5 +1,19 @@
 import { siteData } from '../../data/siteData';
-import { Instagram, Linkedin, Dribbble } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
+
+const BehanceIcon = ({ size = 24, className = "" }: { size?: number, className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    stroke="none"
+    className={className}
+  >
+    <path d="M23.6 15.6c0-4.1-3.2-6.2-6.5-6.2-3.5 0-6.7 2.4-6.7 6.3 0 3.8 3 6.6 6.9 6.6 3.1 0 5.3-1.4 6.3-3.5h-3.1c-.6.7-1.7 1.2-3.2 1.2-2 0-3.3-1.1-3.5-2.8h9.8v-1.6zm-10.2-1.6c.3-1.7 1.5-3 3.5-3 1.8 0 3 .9 3.2 3h-6.7zm4.3-5.2h6.7V6.6h-6.7v2.2zM8.3 12.3c2.4 0 4.3 1.2 4.3 4.1 0 2.8-1.9 4.1-4.3 4.1H0V6.6h7.6c2.4 0 4.1 1.2 4.1 3.8 0 1.7-1.1 2.9-2.5 3.2 1.8.4 3.4 1.7 3.4 3.3.1-2.2-2-4.6-4.3-4.6zm-4.7-3v2.8h3c.8 0 1.5-.4 1.5-1.4 0-.9-.7-1.4-1.5-1.4h-3zm0 5.3v3.1h3.3c.9 0 1.7-.5 1.7-1.6 0-1.1-.8-1.5-1.7-1.5h-3.3z" />
+  </svg>
+);
 
 export default function Footer() {
   const handleNavClick = (href: string) => {
@@ -69,7 +83,7 @@ export default function Footer() {
                 aria-label="Behance"
                 className="w-10 h-10 border border-neutral/30 flex items-center justify-center hover:border-accent hover:text-accent transition-all duration-300"
               >
-                <Dribbble size={18} />
+                <BehanceIcon size={18} />
               </a>
             </div>
           </div>
