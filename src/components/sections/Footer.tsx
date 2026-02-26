@@ -1,5 +1,5 @@
 import { siteData } from '../../data/siteData';
-import { Instagram, Linkedin, Behance } from 'lucide-react';
+import { Instagram, Linkedin, Dribbble } from 'lucide-react';
 
 export default function Footer() {
   const handleNavClick = (href: string) => {
@@ -69,7 +69,7 @@ export default function Footer() {
                 aria-label="Behance"
                 className="w-10 h-10 border border-neutral/30 flex items-center justify-center hover:border-accent hover:text-accent transition-all duration-300"
               >
-                <Behance size={18} />
+                <Dribbble size={18} />
               </a>
             </div>
           </div>
